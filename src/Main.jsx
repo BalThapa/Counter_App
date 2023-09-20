@@ -41,20 +41,21 @@ class Main extends Component {
     let circleClass = ' ' ;
 
     if (this.state.counter === 0) {
-        circleClass = ' ';
+        circleClass = 'none';
 
     } else if (this.state.counter % 2 === 0) {
-        circleClass = 'red';
+        circleClass = "red";
         
     } else {
         circleClass = 'yellow';
         
     }
-
+   
     return (
       <div className="main">
-        <div className="circle">
-          <h1 className={circleClass}>{this.state.counter}</h1>
+        <div className={circleClass}>
+          <h1>{this.state.counter}</h1>
+      
         </div>
         <div className="button">
           <Button click={this.addFiveHandler} text="Add 5"></Button>

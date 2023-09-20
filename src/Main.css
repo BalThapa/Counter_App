@@ -9,7 +9,7 @@
     margin-bottom: 1rem;
 }
 
-.circle{
+.circleClass{
     background-color: rgb(185, 217, 245);
     display: flex;
     justify-content: center;
@@ -20,6 +20,42 @@
     width: 10rem;
     border-radius: 50%;
     
+}
+
+.none{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    border: solid;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.yellow{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    border: solid;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.red{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    border: solid;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
 }
 
 button {
